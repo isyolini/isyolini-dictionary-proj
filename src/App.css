@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: bounce 2s ease infinite;
+  }
+}
+
+.App-header {
+  background-color: #9a1414;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 80px;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/*@keyframes bounce {
+  bounce {
+    70% {
+      transform: translateY(0%);
+    }
+    80% {
+      transform: translateY(-15%);
+    }
+    90% {
+      transform: translateY(0%);
+    }
+    95% {
+      transform: translateY(-7%);
+    }
+    97% {
+      transform: translateY(0%);
+    }
+    99% {
+      transform: translateY(-3%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+}*/

@@ -13,7 +13,7 @@ export default function Dictionary() {
 
   function search(event) {
     event.preventDefault();
-
+    //Refernce: https://www.shecodes.io/learn/apis/dictionary
     const apiKey = "ate4fc772f93a185a4d70db0f2foe64c";
     let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
     axios.get(apiUrl).then(handleResponse);

@@ -13,7 +13,25 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer text-center">Coded by IsyOlini</footer>
+        <footer className="App-footer text-center">
+          <a
+            href="https://github.com/isyolini/isyolini-dictionary-proj"
+            target="_blank"
+            rel="noreferrer"
+            alt="GitHub Isyolini Dictionary Project"
+          >
+            Coded{" "}
+          </a>
+          by{" "}
+          <a
+            href="https://isyolini-portfolio.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            alt="IsyOlini Design Creative Portfolio"
+          >
+            IsyOlini
+          </a>
+        </footer>
       </div>
     </div>
   );

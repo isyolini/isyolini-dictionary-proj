@@ -46,10 +46,10 @@ body {
     width: 0ch;
   } /*Text is hidden*/
   30% {
-    width: 16ch;
+    width: 10ch;
   } /*The enitre header will be typed out*/
   80% {
-    width: 16ch;
+    width: 10ch;
   } /*Text stays visible*/
   90% {
     width: 0ch;

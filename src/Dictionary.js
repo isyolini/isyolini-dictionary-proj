@@ -31,7 +31,8 @@ export default function Dictionary() {
     <div className="Dictionary">
       <section>
         <form onSubmit={handleSubmit}>
-          <label>What word do you want to look up?</label>
+          <label>What word means you like to learn?</label>
+
           <input
             type="search"
             placeholder="Search for a word"
